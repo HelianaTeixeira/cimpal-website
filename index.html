@@ -1,0 +1,270 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Hyperspace by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro">About</a></li>
+							<li><a href="#one">Resources</a></li>
+							<li><a href="#two">Tutorial</a></li>
+							<li><a href="#three">News</a></li>
+							<li><a href="#four">Publications</a></li>
+							<li><a href="#five">Get in touch</a></li>
+
+						</ul>
+					</nav>
+				</div>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<h1>CIMPAL</h1>
+							<p>An index to assess the Cumulative IMPacts of invasive ALien species (IAS)</a><br />
+							originally developed by <a href="https://doi.org/10.1111/ddi.12429">Stelios Katsanevakis, Heliana Teixeira and Fernando Tempera (2016)</a><br />
+							and recently updated with new features and allowing calculations at higher spatial resolutions by Heliana Teixeira, Julien Radoux, Gabriel Pelouze and Fábio L. Matos, through alternative CIMPAL index calculators.</p>
+							<ul class="actions">
+								<li><a href="#one" class="button scrolly">Learn more</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- One -->
+									<section id="one" class="wrapper style2 spotlights">
+						<section>
+							<a href="#" class="image"><img src="images/pic01-CIMPAL-logo.png" alt="" data-position="center center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>CIMPAL calculators</h2>
+              <p>We implemented alternative tools to compute the CIMPAL index, a user friendly no code needed option and two additional workflows offering higher flexibility but requiring minimum coding:</p> 
+              <ul>
+                <li>1) CIMPAL GUI calculator in a cloud environment available through LifeWatch ERIC webservices; </li>
+								<li>2) CIMPAL Python-based Jupiter Notebook workflow in a cloud environment, supported through the LifeWatch NL NaaVRE and available through LifeWatch ERIC webservices; and</li>
+								<li>3) CIMPAL R-based workflow, available through GitHub, including extra features not in LifeWatch implementations.</li>
+								</ul>
+									<ul class="actions">
+										<li><a href="generic_CIMPAL.html" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="images/pic02_marIAS_logo.png" alt="" data-position="top center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>marIAS Impacts Database</h2>
+									<p>marIAS is a marine Invasive Alien Species impacts database gathering evidence from scientific literature on the negative impacts of IAS in marine biodiversity and ecosystems. It provides ready-to-use information on species-habitat specific impact weights needed to calculate CIMPAL. marIAS is implemented as an online app.</p>
+									<ul class="actions">
+										<li><a href="generic_marIAS.html" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Biotic Interactions</h2>
+									<p>The new CIMPAL algorithm implementation in R offers the possibility to consider biotic interactions between IAS. Such interaction can have an antagonistic or a synergistic effect on a co-occurring IAS. Biotic interactions evidence between IAS is extracted from the Global Biotic Interactions GloBI database (Poelen et al., 2014).</p>
+									<ul class="actions">
+										<li><a href="generic_BI.html" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+					</section>
+
+				<!-- Two -->
+					<section id="two" class="wrapper style3 fade-up">
+						<div class="inner">
+							<h2>Requirements to calculate CIMPAL</h2>
+							<p>To assess the cumulative impact of invasive alien species using CIMPAL requires different type of data. Below we outline the main type of information required as well as supporting resources from where some data can be retrieved. A tutorial on how to compile and structure all data files is also available through <a href="https://training.lifewatch.eu/en/categories/user-manuals-and-tutorials/workflows/resource/Biotope_CIMPAL/"> LifeWatch ERIC</a>.</p>
+							<div class="features">
+								<section>
+									<span class="icon solid major fa-bug"></span>
+									<h3>IAS spatial distribution</h3>
+									<p>Georreferrenced occurrences (presence-absence or abundance) of species.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-map"></span>
+									<h3>Habitat maps and zones</h3>
+									<p>Habitats' spatial distribution and zones for aggregation (e.g. administrative boundaries, marine regions).</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-signal"></span>
+									<h3>Impact weights</h3>
+									<p>Magnitude of impact of each species in habitats and associated communities (sensu biotope).</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-paw"></span>
+									<h3>Species Dispersal Radius (optional)</h3>
+									<p>A species-specific mobility trait referring to its daily home range.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-link"></span>
+									<h3>Biotic Interactions (optional)</h3>
+									<p>Positive or negative interaction between a given pair of invasive alien species.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-ship"></span>
+									<h3>Pathways of Introduction (optional)</h3>
+									<p>Main pathway(s) of introdution of a given species.</p>
+								</section>
+							</div>
+							<ul class="actions">
+								<li><a href="generic.html" class="button">Learn more</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- Three -->
+					<section id="three" class="wrapper style2 spotlights">
+						<section>
+							<a href="#" class="image"><img src="images/pic04.jpg" alt="" data-position="center center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Presenting an online tutorial to run CIMPAL through My LifeWatch platform. </h2>
+									<p>CIMPAL index can be used in any environment, terrestrial or aquatic, freshwater or marine. This tutorial is also useful to help preparing the data for the alternative ways of computing the CIMPAL index.</p>
+									<ul class="actions">
+										<li><a href="https://training.lifewatch.eu/en/categories/user-manuals-and-tutorials/workflows/resource/Biotope_CIMPAL/" class="button">Check it out!</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="images/pic05.jpg" alt="" data-position="top center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>New release!! Marine and Coastal Habitat Spatial Layers for Regional Seas around Europe.</h2>
+									<p>If you are interested in assessing marine and coastal environments in Europe. This new spatial dataset for 22 habitat types may just come in hand! Openly available through <a href="https://zenodo.org/records/17106426">Zenodo</a>.</p>
+									<ul class="actions">
+										<li><a href="generic_news2.html" class="button">Check it out!</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image" style="background-size:contain; background-repeat:no-repeat; background-color:#fff;"><img src="images/pic07_fmars-CIMPAL-ES.jpg" alt="" data-position="25% 25%"/></a>
+							<div class="content">
+								<div class="inner">
+									<h2>New publication!!</h2>
+									<p>The latest publications referring CIMPAL developments and applications. </p>
+									<ul class="actions">
+										<li><a href="generic_publications.html" class="button">Find here</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+					</section>
+
+				<!-- Four -->
+					<section id="four" class="wrapper style2 spotlights">
+						<div class="inner">
+							<h2>Publications</h2>
+							<p>List of scientific publications and reports related with CIMPAL index developments and applications. This list is automated from Google Scholar</p>
+								<ul class="actions">
+											<li><a href="" class="button submit">Consult</a></li>
+										</ul>
+					</section>
+	
+	<!-- Five -->
+					<section id="five" class="wrapper style1 fade-up">
+						<div class="inner">
+							<h2>Get in touch</h2>
+							<p>Reach out for support or any doubts regarding the use of the CIMPAL index and its associated resources or the contents of this website.</p>
+							<div class="split style1">
+								<section>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="name">Name</label>
+												<input type="text" name="name" id="name" />
+											</div>
+											<div class="field half">
+												<label for="email">Email</label>
+												<input type="text" name="email" id="email" />
+											</div>
+											<div class="field">
+												<label for="message">Message</label>
+												<textarea name="message" id="message" rows="5"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><a href="" class="button submit">Send Message</a></li>
+										</ul>
+									</form>
+								</section>
+								<section>
+									<ul class="contact">
+										<li>
+											<h3>Address</h3>
+											<span>CESAM & Dept. of Biology,<br />
+											University of Aveiro,<br />
+											Campus de Santiago<br />
+											3810-193 Aveiro<br />
+											Portugal</span>
+										</li>
+										<li>
+											<h3>Email</h3>
+											<a href="#">heliana.teixeira@ua.pt</a>
+										</li>
+										<li>
+											<h3>Phone</h3>
+											<span>+351 234370771</span>
+										</li>
+										<li>
+											<h3>Social</h3>
+											<ul class="icons">
+												<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+												<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+												<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+												<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+												<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+											</ul>
+										</li>
+									</ul>
+								</section>
+							</div>
+						</div>
+					</section>
+					
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; CIMPAL. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
