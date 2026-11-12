@@ -2,7 +2,7 @@
 
 Website for **CIMPAL** index - Cumulative IMPacts of invasive ALien species and **marIAS** – Standardizing knowledge on the Environmental Impacts of Marine Invasive Alien Species.
 
-🌐 Live site: https://HelianaTeixeira.github.io/cimpal-website/
+🌐 Live site: https://cimpal.net
 
 ## About
 [Short description of the project, partners, funding, contact.]
